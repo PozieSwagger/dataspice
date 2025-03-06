@@ -1,0 +1,291 @@
+<html>
+  <head>
+    <title>Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/ld+json">
+      {
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "0000-0003-0891-1231",
+      "email": null,
+      "affiliation": "University of Connecticut",
+      "name": "Caiwen Ding"
+    }
+  ],
+  "description": "Raw data that from the NEUTC project entitled \"Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity\"",
+  "datePublished": "02/23/2025",
+  "keywords": ["Large Language Models", "LLMs", "Transportation"],
+  "funder": "Fitzpatrick, Cole",
+  "temporalCoverage": "NA/NA",
+  "license": "CC0 1.0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Crashid",
+      "description": "ID to a crash"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Fatal Case Status",
+      "description": "Status of if the crash was fatal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Fatal Case Status Text Format",
+      "description": "The completion of the crash text format"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Latitude",
+      "description": "Latitude location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Longitude",
+      "description": "Longitude location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "DOT Case",
+      "description": "Case number relating to the crash"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Town Name",
+      "description": "Name of which town the crash took place"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Town Number",
+      "description": "Number for the town to be used in the LLM"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Date of Year",
+      "description": "Time of crash"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "data",
+      "contentUrl": null,
+      "encodingFormat": "csv"
+    }
+  ]
+}
+
+    </script>
+    <style>
+      body {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 800px;
+      }
+
+      #map {
+        height: 20rem;
+      }
+
+      #attributes-wrapper,
+      #jsonld-wrapper {
+        height: 20rem;
+        overflow-y: scroll;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 0.25rem;
+      }
+
+      table.listing td {
+        border: 1px solid #CCC;
+      }
+
+      table.listing tr td:first-child {
+          background-color: #EEE;
+      }
+
+      table.listing ul {
+        margin: 0 0 0 1.5rem;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity</h1>
+    <p><strong>Description:</strong> Raw data that from the NEUTC project entitled &quot;Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity&quot;</p>
+
+    <h2>Bibliographic</h2>
+
+    <table class="listing">
+      <tr>
+        <td>Published</td>
+        <td>02/23/2025</td>
+      </tr>
+      <tr>
+        <td>Keywords</td>
+        <td>
+          <ul>
+            <li>Large Language Models</li>
+            <li>LLMs</li>
+            <li>Transportation</li>
+        </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Funder</td>
+        <td>Fitzpatrick, Cole</td>
+      </tr>
+      <tr>
+        <td>License</td>
+        <td>CC0 1.0</td>
+      </tr>
+    </table>
+
+    <h2>Coverage</h2>
+
+    <h3>Temporal</h3>
+
+    <table class="listing">
+      <tr>
+        <td>Begin</td>
+        <td>NA</td>
+      </tr>
+      <tr>
+        <td>End</td>
+        <td>NA</td>
+      </tr>
+    </table>
+
+    <h3>Spatial</h3>
+    <pre><code></code></pre>
+    <div id="map"></div>
+
+    <h2>Attributes</h2>
+
+    <div id="attributes-wrapper">
+      <table id="attributes">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>Crashid</code></td>
+            <td>ID to a crash</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Fatal Case Status</code></td>
+            <td>Status of if the crash was fatal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Fatal Case Status Text Format</code></td>
+            <td>The completion of the crash text format</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Latitude</code></td>
+            <td>Latitude location</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Longitude</code></td>
+            <td>Longitude location</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>DOT Case</code></td>
+            <td>Case number relating to the crash</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Town Name</code></td>
+            <td>Name of which town the crash took place</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Town Number</code></td>
+            <td>Number for the town to be used in the LLM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Date of Year</code></td>
+            <td>Time of crash</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>data</code></td>
+          <td><code>csv</code></td>
+          <td><a href="">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+    <script>
+      var mymap = L.map('map').setView([NA, NA], 1);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      var polygon = L.polygon([[ NA, NA], [ NA, NA], [ NA, NA], [ NA, NA]]).addTo(mymap);
+    </script>
+  </body>
+</html>

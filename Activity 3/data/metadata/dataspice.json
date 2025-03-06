@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "0000-0003-0891-1231",
+      "email": null,
+      "affiliation": "University of Connecticut",
+      "name": "Caiwen Ding"
+    }
+  ],
+  "description": "Raw data that from the NEUTC project entitled \"Incorporating Large Language Models (LLMs) into Transportation Safety Analytics and Equity\"",
+  "datePublished": "02/23/2025",
+  "keywords": ["Large Language Models", "LLMs", "Transportation"],
+  "funder": "Fitzpatrick, Cole",
+  "temporalCoverage": "NA/NA",
+  "license": "CC0 1.0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Crashid",
+      "description": "ID to a crash"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Fatal Case Status",
+      "description": "Status of if the crash was fatal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Fatal Case Status Text Format",
+      "description": "The completion of the crash text format"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Latitude",
+      "description": "Latitude location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Longitude",
+      "description": "Longitude location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "DOT Case",
+      "description": "Case number relating to the crash"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Town Name",
+      "description": "Name of which town the crash took place"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Town Number",
+      "description": "Number for the town to be used in the LLM"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Date of Year",
+      "description": "Time of crash"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "data",
+      "contentUrl": null,
+      "encodingFormat": "csv"
+    }
+  ]
+}

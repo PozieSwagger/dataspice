@@ -1,0 +1,10 @@
+fileName,variableName,description,unitText
+data.csv,Crashid,ID to a crash,NA
+data.csv,Fatal Case Status,Status of if the crash was fatal,NA
+data.csv,Fatal Case Status Text Format,The completion of the crash text format,NA
+data.csv,Latitude,Latitude location,NA
+data.csv,Longitude,Longitude location,NA
+data.csv,DOT Case,Case number relating to the crash,NA
+data.csv,Town Name,Name of which town the crash took place,NA
+data.csv,Town Number,Number for the town to be used in the LLM,NA
+data.csv,Date of Year,Time of crash,NA
